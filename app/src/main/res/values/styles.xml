@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="txtEmpty">
+        <item name="android:text">@string/hintEmpty</item>
+        <item name="android:textSize">@dimen/text_middlesize</item>
+        <item name="android:padding">8dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginBottom">8dip</item>
+    </style>
+
+    <style name="txtReload">
+        <item name="android:text">@string/hintReload</item>
+        <item name="android:textSize">@dimen/text_middlesize</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">8dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/selector_button</item>
+    </style>
+
+    <style name="titlebar_progressbar">
+        <item name="android:layout_width">43.399994dip</item>
+        <item name="android:layout_height">43.399994dip</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:indeterminateDrawable">@drawable/titlebar_progressbar</item>
+    </style>
+    <!-- 默认listView -->
+    <style name="lib_listview">
+        <item name="android:divider">@color/list_divider</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="android:listSelector">@drawable/selector_listitem_default</item>
+        <!-- 设置透明背景色 -->
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <!-- 设置listSelector的颜色在数据的下面 -->
+        <item name="android:drawSelectorOnTop">false</item>
+        <!-- 设置ListView默认背景色 -->
+        <item name="android:background">@color/white</item>
+        <!-- 设置点击选中颜色 -->
+        <item name="android:fillViewport">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+    </style>
+    <!-- 分割线左padding20 -->
+    <style name="lib_listview_divider_20" parent="lib_listview">
+        <item name="android:divider">@drawable/lib_list_divider_ml_20</item>
+    </style>
+    <!-- 分割线左右padding20 -->
+    <style name="lib_listview_divider_20_lr" parent="lib_listview">
+        <item name="android:divider">@drawable/lib_list_divider_mlr_20</item>
+    </style>
+
+    <style name="lib_listview_divider_20_no_sel" parent="lib_listview_divider_20">
+        <item name="android:listSelector">@drawable/selector_listitem_no</item>
+    </style>
+
+    <style name="lib_listview_no_divider" parent="lib_listview">
+        <item name="android:divider">@android:color/transparent</item>
+    </style>
+
+    <style name="lib_listview_no_divider_no_sel" parent="lib_listview">
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:listSelector">@drawable/selector_listitem_no</item>
+    </style>
+
+    <!-- 时间选择器popwidnow 显示消失动画 -->
+    <style name="timepopwindow_anim_style">
+        <item name="android:windowEnterAnimation">@anim/timepicker_anim_enter_bottom</item>
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowExitAnimation">@anim/timepicker_anim_exit_bottom</item>
+        <!-- 指定消失的动画xml -->
+    </style>
+
+    <style name="anim_popup_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_bottom</item>
+    </style>
+
+    <style name="anim_popup_from_top">
+        <item name="android:windowEnterAnimation">@anim/slide_in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_to_top</item>
+    </style>
+
+    <style name="AppTheme.NoTitleBar" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <!-- 滑动退出设置 -->
+    <style name="Slidable" parent="AppBaseTheme">
+
+        <!-- These values must be set for this mechanism to work -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

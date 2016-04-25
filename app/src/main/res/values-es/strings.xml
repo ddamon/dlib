@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="more">more</string>
+    <string name="cannotRequestRefresh">no more data</string>
+    <string name="cannotRequestUpdate">no more data</string>
+    <string name="hintLoadCanceled">loading canceled</string>
+    <string name="hintLoadIsNull">loading fail</string>
+    <string name="msgLoadSuccessed">loading success</string>
+    <string name="hintEmpty">no data</string>
+    <string name="hintReload">reload</string>
+    <string name="msgLoadEmpty">load 0 data</string>
+    <string name="msgLoadNotEmpty">load %d data</string>
+    <string name="hintLoadMore">load more</string>
+    <string name="hintLoading">loading</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lib_loading_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/lib_loading_view_margin_layout"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        style="?android:progressBarStyle"
+        android:layout_width="@dimen/lib_loading_view_progress_size"
+        android:layout_height="@dimen/lib_loading_view_progress_size"
+        android:layout_marginRight="@dimen/lib_loading_view_margin_right"
+        android:indeterminate="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="加载中..." />
+
+</LinearLayout>

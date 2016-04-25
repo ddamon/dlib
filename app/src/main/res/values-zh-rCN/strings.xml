@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="more">更多</string>
+    <string name="cannotRequestRefresh">没有更多数据了</string>
+    <string name="cannotRequestUpdate">没有更多数据了</string>
+    <string name="hintLoadCanceled">取消加载</string>
+    <string name="hintLoadIsNull">加载失败</string>
+    <string name="msgLoadSuccessed">加载成功</string>
+    <string name="hintEmpty">没有数据</string>
+    <string name="hintReload">重新加载</string>
+    <string name="msgLoadEmpty">加载0条数据</string>
+    <string name="msgLoadNotEmpty">加载%d条数据</string>
+    <string name="hintLoadMore">加载更多</string>
+    <string name="hintLoading">正在加载</string>
+
+</resources>
